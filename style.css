@@ -1,0 +1,46 @@
+body{
+  background-color: #050505;
+  
+}
+.Image-slider h1 b{
+  color: rgb(93, 220, 14);
+}
+.Image-slider h1 {
+  color: white;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+#nextbtn,
+#prevbtn {
+  border-radius: 50%;
+  padding: 20px;
+  font-size: larger;
+  background-color: rgb(62, 70, 62);
+  color: rgb(249, 248, 248);
+  border: none;
+  cursor: pointer;
+}
+#buttons{
+    position: absolute; 
+    top: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.Image-slider {
+  position: relative;
+  width: 80%;
+  max-width: 580px;
+  max-height: 950px;
+  margin: auto;
+  overflow: hidden;
+  top: 30px;
+}
+#slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+#slides img {
+  width: 100%;
+}
+
