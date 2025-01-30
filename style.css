@@ -7,13 +7,13 @@ body{
 }
 .Image-slider h1 {
   color: white;
-  margin-left: 160px;
+  margin-left: 84px;
   margin-top: 20px;
 }
 #nextbtn,
 #prevbtn {
   border-radius: 50%;
-  padding: 20px;
+  padding: 15px;
   font-size: larger;
   background-color: rgb(62, 70, 62);
   color: rgb(249, 248, 248);
@@ -30,11 +30,11 @@ body{
 .Image-slider {
   position: relative;
   width: 80%;
-  max-width: 580px;
-  max-height: 950px;
+  max-width: 400px;
+  max-height: 700px;
   margin: auto;
   overflow: hidden;
-  top: 30px;
+  top: 0px;
 }
 #slides {
   display: flex;
